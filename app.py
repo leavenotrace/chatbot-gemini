@@ -18,7 +18,7 @@ st.set_page_config(page_title="Gemini Chatbot", page_icon=":gem:")
 
 with st.sidebar:
     st.title("Gemini Setting")
-
+""" 
     api_key = st.text_input("API key", placeholder="if you have one.")
     if api_key:
         genai.configure(api_key=api_key)
@@ -26,7 +26,8 @@ with st.sidebar:
         if "GOOGLE_API_KEY" in st.secrets:
             genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
         else:
-            st.error("Missing API key.")
+            st.error("Missing API key.") """
+    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
     select_model = st.selectbox(
         "Select model", ["gemini-pro", "gemini-pro-vision"])
     temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.9, 0.1)
