@@ -21,6 +21,7 @@ with st.sidebar:
 
     #api_key = st.text_input("API key", placeholder="if you have one.")
     api_key = "AIzaSyCfa62eNW62tqXPet6pFc3-6eg5qMPaLRI"
+    
     if api_key:
         genai.configure(api_key=api_key)
     else:
