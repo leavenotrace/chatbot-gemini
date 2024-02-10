@@ -61,10 +61,10 @@ messages = st.session_state["messages"]
 
 # The vision model gemini-pro-vision is not optimized for multi-turn chat.
 st.header("Gemini LLM Chatbot🎈")
-st.write("This is a Gemini LLM Chatbot. This app is powered by Google's GEMINI Generative AI models. This app is built using Streamlit and hosted on Streamlit Share.")
+""" st.write("This is a Gemini LLM Chatbot. This app is powered by Google's GEMINI Generative AI models. This app is built using Streamlit and hosted on Streamlit Share.")
 st.markdown("""
     App built by [srikresna](https://github.com/srikresna) using [Streamlit](https://streamlit.io) and hosted on [Streamlit Share](https://share.streamlit.io).
-""")
+""") """
 
 # Initialize session state for chat history if it doesn't exist
 if messages and select_model != "gemini-pro-vision":
