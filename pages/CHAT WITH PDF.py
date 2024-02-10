@@ -9,10 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
-GOOGLE_API_KEY = "AIzaSyBmerYnmA73DFDsmoq9ZVgp1bwg5kAtEmE"
-
-#genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 
 def get_pdf_text(pdf_docs):
