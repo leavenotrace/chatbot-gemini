@@ -91,7 +91,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config(
-        page_title="Chat with PDF",
+        page_title="私有知识库",
         page_icon=":gem:",
     )
 
