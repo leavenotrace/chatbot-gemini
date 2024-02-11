@@ -98,8 +98,8 @@ def main():
     with st.sidebar:
         st.title("Chat setting")
         pdf_docs = st.file_uploader(
-            "Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
-        if st.button("Submit & Process"):
+            "上传PDF文档后，请按提交按钮", accept_multiple_files=True)
+        if st.button("提交"):
             if not pdf_docs:
                 st.error(
                     "No PDF files uploaded. Please upload a file and try again.")
@@ -112,10 +112,10 @@ def main():
 
     st.title("私有知识库 🤖")
     st.write("""
-        Here you can chat with the AI model and upload PDFs to ask questions based on the PDFs.     
+        上传PDF文档，Gemini将文档变成私有知识库.     
              """
              )
-    st.sidebar.button('Clear & Reset Chat', on_click=clear_chat_history)
+    st.sidebar.button('清除历史记录', on_click=clear_chat_history)
 
     if "messages" not in st.session_state.keys():
         st.session_state.messages = [
