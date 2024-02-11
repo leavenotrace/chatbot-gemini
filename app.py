@@ -32,9 +32,9 @@ with st.sidebar:
     select_model = st.selectbox(
         "Select model", ["gemini-pro", "gemini-pro-vision"])
     temperature = 0.9
-"""     temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.9, 0.1)
-    st.caption(
-        "Temperature controls the randomness of the model. Lower temperature results in less randomness.") """
+   # temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.9, 0.1)
+   # st.caption(
+   #     "Temperature controls the randomness of the model. Lower temperature results in less randomness.")
 
     if select_model == "gemini-pro-vision":
         uploaded_image = st.file_uploader(
