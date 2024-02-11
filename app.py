@@ -30,7 +30,7 @@ with st.sidebar:
         else:
             st.error("Missing API key.")
     select_model = st.selectbox(
-        "Select model", ["gemini-pro", "gemini-pro-vision"])
+        "选择模型", ["gemini-pro", "gemini-pro-vision"])
     temperature = 0.9
    # temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.9, 0.1)
    # st.caption(

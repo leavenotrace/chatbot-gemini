@@ -110,7 +110,7 @@ def main():
                     get_vector_store(text_chunks)
                     st.success("Done")
 
-    st.title("Chat with PDF 🤖")
+    st.title("私有知识库 🤖")
     st.write("""
         Here you can chat with the AI model and upload PDFs to ask questions based on the PDFs.     
              """
