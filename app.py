@@ -20,7 +20,7 @@ with st.sidebar:
     st.title("Gemini Setting")
 
     #api_key = st.text_input("API key", placeholder="if you have one.")
-    api_key = "AIzaSyBmerYnmA73DFDsmoq9ZVgp1bwg5kAtEmE"
+    api_key = ""
     
     if api_key:
         genai.configure(api_key=api_key)
@@ -62,6 +62,7 @@ messages = st.session_state["messages"]
 
 # The vision model gemini-pro-vision is not optimized for multi-turn chat.
 st.header("Happy Gemini  ")
+st.write("2024, 龙年大吉、顺风顺水！")
 # st.write("This is a Gemini LLM Chatbot. This app is powered by Google's GEMINI Generative AI models. This app is built using Streamlit and hosted on Streamlit Share.")
 # st.markdown(
 #    App built by [srikresna](https://github.com/srikresna) using [Streamlit](https://streamlit.io) and hosted on [Streamlit Share](https://share.streamlit.io).
