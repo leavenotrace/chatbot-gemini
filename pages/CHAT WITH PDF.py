@@ -96,7 +96,7 @@ def main():
     )
 
     with st.sidebar:
-        st.title("Chat setting")
+        #st.title("Chat setting")
         pdf_docs = st.file_uploader(
             "上传PDF文档后，请按提交按钮", accept_multiple_files=True)
         if st.button("提交"):
