@@ -17,7 +17,7 @@ generation_config = {
 st.set_page_config(page_title="Happy Gemini", page_icon=":gem:")
 
 with st.sidebar:
-    st.title("Gemini Setting")
+    st.title("设置")
 
     #api_key = st.text_input("API key", placeholder="if you have one.")
     api_key = ""
