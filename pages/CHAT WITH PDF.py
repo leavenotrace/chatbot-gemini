@@ -115,6 +115,11 @@ def main():
         上传PDF文档，Gemini将企业文档变成私有知识库,可以问文档中任何问题.     
              """
              )
+    
+    st.markdown(
+        App built by [卡塔科技](https://happygpts.cn) using Google Gemini Pro API.
+    )
+
     st.sidebar.button('清除历史记录', on_click=clear_chat_history)
 
     if "messages" not in st.session_state.keys():
