@@ -65,9 +65,9 @@ messages = st.session_state["messages"]
 st.header("Happy Gemini  ")
 st.write("2024, 龙年大吉、顺风顺水！")
 # st.write("This is a Gemini LLM Chatbot. This app is powered by Google's GEMINI Generative AI models. This app is built using Streamlit and hosted on Streamlit Share.")
-# st.markdown(
-#    App built by [srikresna](https://github.com/srikresna) using [Streamlit](https://streamlit.io) and hosted on [Streamlit Share](https://share.streamlit.io).
-#""") """
+st.markdown(
+    App built by [卡塔科技](https://happygpts.cn) using Google Gemini Pro API.
+)
 
 # Initialize session state for chat history if it doesn't exist
 if messages and select_model != "gemini-pro-vision":

@@ -112,7 +112,7 @@ def main():
 
     st.title("私有知识库 🤖")
     st.write("""
-        上传PDF文档，Gemini将文档变成私有知识库,可以问文档中任何问题.     
+        上传PDF文档，Gemini将企业文档变成私有知识库,可以问文档中任何问题.     
              """
              )
     st.sidebar.button('清除历史记录', on_click=clear_chat_history)
