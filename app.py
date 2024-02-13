@@ -66,7 +66,7 @@ st.header("Happy Gemini  ")
 st.write("2024, 龙年大吉、顺风顺水！")
 # st.write("This is a Gemini LLM Chatbot. This app is powered by Google's GEMINI Generative AI models. This app is built using Streamlit and hosted on Streamlit Share.")
 st.markdown("""
-    App built by [卡塔科技](https://happygpts.cn) using Google Gemini API.
+    App built by [卡塔科技](https://happygpts.cn) .
 """)
 
 # Initialize session state for chat history if it doesn't exist
