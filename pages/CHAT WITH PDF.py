@@ -117,7 +117,7 @@ def main():
              )
     
     st.markdown("""
-        App built by [卡塔科技](https://happygpts.cn) using Google Gemini Pro API.
+        App built by [卡塔科技](https://happygpts.cn) using Google Gemini  API.
     """)
 
     st.sidebar.button('清除历史记录', on_click=clear_chat_history)
